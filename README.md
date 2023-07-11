@@ -14,9 +14,6 @@ Esta é a base para o projeto, com todas as imagens necessárias.
 Você precisa ter instalado o NodeJS (Recomendado: versão 18) e o npm ou yarn.
 - Instalação do nodejs: https://nodejs.org/
 
-Também é necessário uma IDE, recomendo o VsCode
-- Instalação do VsCode: https://code.visualstudio.com/
-
 ## Comandos
 
 Para instalar as bibliotecas e dependências:
@@ -34,9 +31,5 @@ npm run dev
 Depois, é só abrir [http://localhost:3000](http://localhost:3000) com o seu navegador.
 
 ## Redes sociais:
-
-Acompanhe o SejaDev em:
-- [Youtube](https://www.youtube.com/@sejaDev)
-- [Instagram](https://www.instagram.com/seja.dev/)
-- [Linkedin](https://www.linkedin.com/company/79618568)
-- [Facebook](https://www.facebook.com/sejadevoficial/)
+- [Instagram](https://www.instagram.com/heltonribeirof/)
+- [Linkedin](https://www.linkedin.com/in/hfbarbosa/)
