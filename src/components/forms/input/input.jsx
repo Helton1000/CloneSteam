@@ -1,8 +1,8 @@
-import style from './input.module.css'
+import styles from './input.module.css'
 
 export default function Input({fullWidth, ...props}){
     return(
-        <input className={`${style.input} ${fullWidth && style.fullwidth}`}  
+        <input className={`${styles.input} ${fullWidth && styles.fullwidth}`}  
         {...props} />
     )
 }
