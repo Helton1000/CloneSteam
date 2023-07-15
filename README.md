@@ -4,6 +4,9 @@ Esse projeto foi construído para fins didáticos no evento Semana da Evolução
 
 Esta é a base para o projeto, com todas as imagens necessárias.
 
+## Link para o projeto
+CloneSteam: https://clone-steam.vercel.app
+
 ## Tecnologias
 
 - NextJs na sua versão 13.4.1
