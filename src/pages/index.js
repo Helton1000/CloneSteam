@@ -21,9 +21,19 @@ export default function Home() {
           <div className={styles.session}>
             <Subtitle>Promoções</Subtitle>
             <div className={styles.salecontainer}>
-              <SaleCard/>
-              <SaleCard/>
-              <SaleCard/>
+              <SaleCard
+                image={'league-of-legends.jpg'}
+                fullPrice={125.00}
+                discount={50}
+              />
+              <SaleCard
+                image={'dota-2.jpg'}
+                fullPrice={185.00}
+                discount={20}
+              />
+              <SaleCard
+                image={'valorant.jpg'}
+              />
             </div>
           </div>
 
@@ -31,10 +41,18 @@ export default function Home() {
           <div className={styles.session}>
             <Subtitle>Outros Jogos</Subtitle>
             <div className={styles.gamecontainer}>
-              <GameCard/>
-              <GameCard/>
-              <GameCard/>
-              <GameCard/>
+              <GameCard
+                image={'counter-strike.jpg'}
+              />
+              <GameCard
+                image={'sea-of-thievs.jpg'}
+              />
+              <GameCard
+                image={'elden-ring.jpg'}
+              />
+              <GameCard
+                image={'fifa.jpg'}
+              />
             </div>
           </div>
         </Container>
