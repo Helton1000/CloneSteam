@@ -29,10 +29,12 @@ export default function Home() {
               <SaleCard
                 image={'dota-2.jpg'}
                 fullPrice={185.00}
-                discount={20}
+                discount={48}
               />
               <SaleCard
                 image={'valorant.jpg'}
+                fullPrice={285.00}
+                discount={63}
               />
             </div>
           </div>

@@ -12,7 +12,7 @@ export default function SaleCard({ image, discount, fullPrice, discountPrice, di
                     <div className={styles.percent}>-{discount + '%'}</div>
                     <div className={styles.price}>
                         <p className={styles.fullprice}>R${Number(fullPrice).toFixed(2)}</p>
-                        <h4 className={styles.discountprice}>R${discountPrice = (fullPrice * (discount/100)).toFixed(2)}</h4>
+                        <h4 className={styles.discountprice}>R${discountPrice = (fullPrice - (fullPrice * (discount/100))).toFixed(2)}</h4>
                     </div>
                 </div>
                 <Button fullwidth>Adicionar ao carrinho</Button>
