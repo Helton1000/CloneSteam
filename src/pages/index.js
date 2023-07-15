@@ -45,15 +45,26 @@ export default function Home() {
             <div className={styles.gamecontainer}>
               <GameCard
                 image={'counter-strike.jpg'}
+                name={'Counter-Strike: Global Offensive'}
+                value={'Gratuito'}
+                gender={'Tiro em Primeira Pessoa(FPS), Multijogador, Ação, Estratégia'}
               />
               <GameCard
                 image={'sea-of-thievs.jpg'}
+                name={'Sea of Thieves 2023 Edition'}
+                value={'R$89,99'}
               />
               <GameCard
                 image={'elden-ring.jpg'}
+                name={'ELDEN RING'}
+                value={'R$249,90'}
+                gender={'Soulslike, Fantasia Sombria, RPG, Mundo Aberto'}
               />
               <GameCard
                 image={'fifa.jpg'}
+                name={'EA SPORTS™ FIFA 23'}
+                value={'R$299,00'}
+                gender={'Futebol, Esportes, Controle, eSports'}
               />
             </div>
           </div>
